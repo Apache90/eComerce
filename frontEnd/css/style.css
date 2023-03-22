@@ -203,6 +203,18 @@ img{
     height: 220px;
     background: linear-gradient(rgb(255, 158, 48), rgb(252, 11, 11));
     border-radius: 50%;
+    animation-name: girarHomeShape;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+@keyframes girarHomeShape {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
 }
 .home_img{
     position: absolute;
@@ -262,6 +274,7 @@ img{
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 32px;
     background-color: var(--dark-color-lighten);
@@ -375,7 +388,7 @@ img{
     background-repeat: no-repeat;
 }
 .collection_card2{
-    background-image: url(/frontEnd/assets/img/nike.jpg);
+    background-image: url(/frontEnd/assets/img/marca-jordan.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -519,7 +532,7 @@ img{
         background-repeat: no-repeat;
     }
     .collection_card2{
-        background-image: url(/frontEnd/assets/img/nike.jpg);
+        background-image: url(/frontEnd/assets/img/marca-jordan.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -575,13 +588,13 @@ img{
         grid-template-columns: repeat(1,100%);
     }
     .collection_card{
-        background-image: url(/assets/img/adidas-campana-impossible.jpeg);
+        background-image: url(/frontEnd/assets/img/adidas-campana-impossible.jpeg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .collection_card2{
-        background-image: url(/assets/img/nike.jpg);
+        background-image: url(/frontEnd/assets/img/marca-jordan.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -615,7 +628,7 @@ img{
         background-position: center;
     }
     .collection_card2{
-        background-image: url(/frontEnd/assets/img/nike.jpg);
+        background-image: url(/frontEnd/assets/img/marca-jordan.jpg);
         background-size: 100%;
         background-position: center;
     }
