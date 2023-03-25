@@ -34,7 +34,7 @@ app.get("/api/products", (req, res) => {
 });
 
 app.use("/", express.static("frontEnd"));
-app.use("/", express.static("assets"));
+
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
