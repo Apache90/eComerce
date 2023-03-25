@@ -382,13 +382,13 @@ img{
     transform: translateY(-8px);
 }
 .collection_card{
-    background-image: url(/frontEnd/assets/img/adidas-campana-impossible.jpeg);
+    background-image: url(/assets/img/adidas-campana-impossible.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .collection_card2{
-    background-image: url(/frontEnd/assets/img/marca-jordan.jpg);
+    background-image: url(/assets/img/marca-jordan.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -526,13 +526,13 @@ img{
         grid-template-columns: repeat(1,100%);
     }
     .collection_card{
-        background-image: url(/frontEnd/assets/img/adidas-campana-impossible.jpeg);
+        background-image: url(/assets/img/adidas-campana-impossible.jpeg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .collection_card2{
-        background-image: url(/frontEnd/assets/img/marca-jordan.jpg);
+        background-image: url(/assets/img/marca-jordan.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -588,13 +588,13 @@ img{
         grid-template-columns: repeat(1,100%);
     }
     .collection_card{
-        background-image: url(/frontEnd/assets/img/adidas-campana-impossible.jpeg);
+        background-image: url(/assets/img/adidas-campana-impossible.jpeg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .collection_card2{
-        background-image: url(/frontEnd/assets/img/marca-jordan.jpg);
+        background-image: url(/assets/img/marca-jordan.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -623,12 +623,12 @@ img{
         justify-content: space-around;
     }
     .collection_card{
-        background-image: url(/frontEnd/assets/img/adidas-campana-impossible.jpeg);
+        background-image: url(/assets/img/adidas-campana-impossible.jpeg);
         background-size: 100%;
         background-position: center;
     }
     .collection_card2{
-        background-image: url(/frontEnd/assets/img/marca-jordan.jpg);
+        background-image: url(/assets/img/marca-jordan.jpg);
         background-size: 100%;
         background-position: center;
     }
