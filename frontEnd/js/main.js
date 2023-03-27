@@ -46,3 +46,40 @@ window.onscroll = ()=>{
     if(this.scrollY >=200) nav.classList.add('scroll-header');
     else nav.classList.remove('scroll-header')
 }
+/*===== PAY PRODUCTS =====*/
+let products = [];
+let total = 0;
+
+function add(product,price){
+    console.log(product,price);
+    products.push(product);
+    total = total + price;
+    document.getElementById('pay').innerHTML = `$ ${total}`
+}
+function pay(){
+    window.alert(products.join(", \n"));
+}
+
+/*===== SHOW PRODUCTS =====*/
+function displayProducts(productlist){
+    let productsHTML = '';
+    productlist.forEach(element => {
+        productsHTML +=
+        `<article class="sneaker">
+            <img src="${element.image}" alt="" class="sneaker_img">
+            <span class="sneaker_name">${element.name}</span>
+            <span class="sneaker_price">$${element.price}</span>
+            <a class="button-light" onclick="add(${element.id},${element.price})">Agregar <i class='bx bxs-arrow-from-left button-icon'></i></a>
+        </article>`
+    });
+    document.getElementById('catalog_product').innerHTML = productsHTML;
+}
+
+/*===== FETCH =====*/
+window.onload = async() => {
+    const productlist = await (await fetch("/api/products")).json();
+    console.log(productlist);
+    displayProducts(productlist);
+}
+
+
