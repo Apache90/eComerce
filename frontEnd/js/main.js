@@ -81,5 +81,3 @@ window.onload = async() => {
     console.log(productlist);
     displayProducts(productlist);
 }
-
-
