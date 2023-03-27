@@ -47,6 +47,9 @@ window.onscroll = ()=>{
     else nav.classList.remove('scroll-header')
 }
 
+=======
+
+
 /*===== PAY PRODUCTS =====*/
 let products = [];
 let total = 0;
