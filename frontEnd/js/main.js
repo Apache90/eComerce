@@ -46,7 +46,6 @@ window.onscroll = ()=>{
     if(this.scrollY >=200) nav.classList.add('scroll-header');
     else nav.classList.remove('scroll-header')
 }
-
 /*===== PAY PRODUCTS =====*/
 let products = [];
 let total = 0;
@@ -81,9 +80,4 @@ window.onload = async() => {
     const productlist = await (await fetch("/api/products")).json();
     console.log(productlist);
     displayProducts(productlist);
-}
-
-/*===== SHOP =====*/
-function add(product,price){
-    console.log(product,price);
 }
