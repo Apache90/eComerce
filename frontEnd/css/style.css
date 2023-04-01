@@ -258,6 +258,12 @@ img{
     font-weight: var(--font-bold);
     align-items: center;
 }
+.button-light-disabled{
+    display: inline-flex;
+    color: var(--dark-color-light);
+    font-weight: var(--font-bold);
+    align-items: center;
+}
 .button-icon{
     font-size: 20px;
     margin-left: var(--m-1);
